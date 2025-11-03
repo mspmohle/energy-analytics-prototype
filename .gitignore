@@ -1,0 +1,56 @@
+# --- Environment and system files ---
+.env
+*.env
+*.DS_Store
+*.swp
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Jupyter checkpoints ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Data and cache files ---
+*.db
+*.duckdb
+*.sqlite
+*.parquet
+*.h5
+*.log
+*.zip
+*.gz
+*.tmp
+*.bak
+*.cache
+data/
+!notebooks/data/           # Allow the notebook data folder to be tracked
+notebooks/data/*.zip
+notebooks/data/*.log
+notebooks/data/*.tmp
+
+# --- Figures and outputs ---
+figures/*.tmp
+figures/*.bak
+figures/*.pdf
+figures/*.svg
+
+# --- Virtual environments ---
+venv/
+.env/
+.env.bak/
+.env.old/
+.venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# --- OS and IDE clutter ---
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
+*.code-workspace
