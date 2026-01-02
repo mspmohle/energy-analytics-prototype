@@ -29,7 +29,7 @@ energy-analytics-prototype/
 ├── README.md                               # Project documentation
 ├── requirements.txt                        # Python dependencies
 └── .gitignore                              # Environment and temp file exclusions
-
+```
 Tools and Libraries
 
 Python (Pandas, NumPy, Matplotlib, Seaborn)
